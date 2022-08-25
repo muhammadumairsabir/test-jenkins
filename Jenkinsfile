@@ -8,7 +8,7 @@ pipeline {
             steps {
                 script {
                     try {
-                            sh 'echo sdfjsk;fdsfklsfjsd'
+                            sh 'echo sdfjskfdsfklsfjsd'
                     } catch (Exception e) {
                         error "Maybe sonar-project.properties is missing?"
                     }
