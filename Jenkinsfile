@@ -5,9 +5,6 @@ pipeline {
     agent any
     stages {
         stage('Install Dependencies') {
-             environment {
-                scannerHome = tool 'SonarQubeScanner-4.6.2'
-            }
             steps {
                 script {
                     try {
